@@ -12,7 +12,7 @@ Before you begin creating an application with this `devfile` code sample, it's h
 3. The `devfile.yaml` [`kubernetes-deploy` component](https://github.com/redhat-appstudio/devfile-sample-nodejs-dance/blob/main/devfile.yaml#L25-L36) points to a `deploy.yaml` file that contains instructions for deploying the built container image.
 4. The `devfile.yaml` [`deploy` command](https://github.com/redhat-appstudio/devfile-sample-nodejs-dance/blob/main/devfile.yaml#L38-L51) completes the [outerloop](https://devfile.io/docs/2.2.0/innerloop-vs-outerloop) deployment phase by pointing to the `image-build` and `kubernetes-deploy` components to create your application.
 
-## License
+## License 
 
 This stack is licensed under the [EPL 2.0](./LICENSE) license.
 
